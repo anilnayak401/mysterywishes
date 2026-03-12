@@ -3,10 +3,10 @@ import { supabase } from '@/lib/supabaseClient';
 
 export async function GET(
   request: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: { id: string } }
 ) {
   try {
-    const { id } = await params;
+    const id = params.id;
 
     if (!id) {
       return NextResponse.json({ error: 'Missing wish ID' }, { status: 400 });
