@@ -1,24 +1,41 @@
 # Mystery Wishes 🎉
 
-**Live App:**
-[https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app](https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app)
+### Live Web Application
+[**Open Mystery Wishes**](https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app)
 
-Mystery Wishes is a mobile-first web application that allows users to create anonymous surprise wish links. Recipients go through a playful suspense flow before revealing a personalized message and video celebration.
+Click the link above to open the deployed web application.
 
-## ✨ Features
-- **Personalized Surprises**: Create unique mystery links for birthdays, anniversaries, and more.
-- **Suspenseful Flow**: A multi-step reveal experience for the recipient.
-- **Celebration Effects**: High-quality confetti and fireworks animations.
-- **Video Integration**: Support for YouTube links and direct video uploads.
+---
 
-## 🚀 Quick Start
-1. Visit the [Live App](https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app).
-2. Click on "Create Mystery Wish".
-3. Fill in the recipient's details and your custom message.
-4. Share the generated link via WhatsApp, Instagram, or QR code!
+## About Mystery Wishes
+Mystery Wishes is a web application that allows users to create anonymous surprise wish links and send them to others. 
 
-## 🛠️ Technology Stack
-- **Frontend**: Next.js 15, Tailwind CSS, Framer Motion
-- **Backend**: Next.js API Routes, Supabase
-- **Database**: PostgreSQL (Supabase)
-- **Deployment**: Vercel
+The experience guides the recipient through a playful suspense flow (Notification -> Identity Check -> Anticipation) before revealing a personalized celebration with:
+- ✨ Custom messages
+- 🎥 YouTube or uploaded videos
+- 🎉 Confetti and Fireworks effects
+
+## How it Works
+1. **Make a Wish**: Fill out the recipient's name and your special message.
+2. **Add a Video**: Include a YouTube link or upload a video file for a personal touch.
+3. **Share the Magic**: Generate a unique mystery link or QR code and send it to your loved one!
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js installed
+- Supabase account for backend storage
+
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:3000` to see the results.
