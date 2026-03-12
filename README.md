@@ -1,7 +1,6 @@
 # Mystery Wishes 🎉
 
 **Live App:**
-[https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app](https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app)
 
 http://localhost:3000/create
 
