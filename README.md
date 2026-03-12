@@ -1,42 +1,30 @@
-# Mystery Wishes 🎁
+<div align="center">
 
-[**Live Application Link**](https://mysterywishes.app)
+# 🎁 Mystery Wishes
 
-A mobile-first web application that allows users to create personalized mystery celebration links.
+### [🚀 OPEN APPLICATION](https://mysterywishes.app)
 
-## Features
-- ✨ **Create Mystery Wishes**: Customize names, occasion, and message.
-- 🎥 **Video Integration**: Support for YouTube links or direct video uploads to Supabase.
-- 🔗 **Smart Sharing**: Generate unique links, QR codes, and quick-share to WhatsApp, Instagram, etc.
-- 🎭 **Experience Flow**: A 3-step suspense reveal for recipients.
-- 🎉 **Celebration Effects**: High-quality confetti and fireworks animations.
+**A mobile-first web application for creating personalized mystery celebration links.**
 
-## Getting Started
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fanilnayak401%2Fmysterywishes)
 
-### Prerequisites
-- Node.js installed
-- Supabase account (configured in `.env.local`)
+---
 
-### Setup
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up your Supabase database using `supabase_schema.sql`.
-4. Create a public bucket in Supabase named `wish-videos`.
+### [📂 BACKEND CODE (API)](file:///f:/mysterywishes/src/app/api) | [📂 FRONTEND CODE (UI)](file:///f:/mysterywishes/src/app)
 
-### Run Locally
-```bash
-npm run dev
-```
+</div>
 
-## Project Structure
-- `src/app`: Next.js pages and API routes.
-- `src/components`: UI components organized by domain.
-- `src/lib`: Utilities and client initializations.
-- `src/types`: TypeScript interfaces.
-- `src/types/wish.ts`: Shared data structures.
+## 🛠️ Features & Stack
 
-## UI Inspiration
-The app follows a playful, "bubbly" aesthetic with soft pinks, purples, and rounded UI elements to evoke joy and celebration.
+- **Frontend**: Next.js 15, Tailwind CSS 4, Framer Motion
+- **Backend**: Next.js API Routes, Supabase PostgreSQL
+- **Animations**: Canvas Confetti, Fireworks JS
+- **Integration**: Supabase Storage for Video Uploads
+
+## ⚙️ Setup
+1. `npm install`
+2. Configure `.env.local` with Supabase credentials
+3. `npm run dev`
+
+---
+*Built with love to make celebrations magical.*
