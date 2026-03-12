@@ -1,10 +1,7 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabaseClient';
 
-export async function GET(
-  req: Request,
-  context: { params: { id: string } }
-) {
+export async function GET(request: Request, context: any) {
   try {
     const id = context.params.id;
 
