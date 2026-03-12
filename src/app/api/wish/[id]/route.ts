@@ -2,12 +2,11 @@ import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabaseClient';
 
 export async function GET(
-  request: Request,
-  { params }: { params: { id: string } }
+  req: Request,
+  context: { params: { id: string } }
 ) {
-  // Sync params for Next.js build compatibility
   try {
-    const id = params.id;
+    const id = context.params.id;
 
     if (!id) {
       return NextResponse.json({ error: 'Missing wish ID' }, { status: 400 });
