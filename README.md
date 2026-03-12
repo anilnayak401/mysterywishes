@@ -3,6 +3,8 @@
 **Live App:**
 [https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app](https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app)
 
+http://localhost:3000/create
+
 Mystery Wishes is a mobile-first web application that allows users to create anonymous surprise wish links. Recipients go through a playful suspense flow before revealing a personalized message and video celebration.
 
 ## ✨ Features
