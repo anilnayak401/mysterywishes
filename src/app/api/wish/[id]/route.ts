@@ -5,6 +5,7 @@ export async function GET(
   request: Request,
   { params }: { params: { id: string } }
 ) {
+  // Sync params for Next.js build compatibility
   try {
     const id = params.id;
 
