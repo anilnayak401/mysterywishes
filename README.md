@@ -1,7 +1,7 @@
 # Mystery Wishes 🎉
 
 ### Live Web Application
-[**Open Mystery Wishes**](https://mysterywishes-lnqd9qkyu-anilnayak401s-projects.vercel.app)
+[**Open Mystery Wishes**](http://localhost:3000/create)
 
 Click the link above to open the deployed web application.
 
